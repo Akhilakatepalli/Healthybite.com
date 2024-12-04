@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HealthyBite</title>
+    <link rel="stylesheet" href="style.css/stylesheet.css">
+    <script src="js/main.js" defer></script>
+    <!-- Font Awesome for icons -->
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  
+  
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="index.html">HealthyBite.com</a>
+        </div>
+        <div class="menu-icon" onclick="toggleMenu()">
+            <i class="fas fa-bars"></i>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#recipes">Recipes</a></li>
+          <li><a href="#meal-plans">Meal Plans</a></li>
+          <li><a href="#drinks">Drinks</a></li>
+          <li><a href="#nutrition">Nutrition</a></li>
+          <li><a href="#shop">shop</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          
+          <li>
+            <input type="text" id="search-bar" placeholder="Search..." />
+        </li>
+        </ul>
+      
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <img src="meals/introbg.jpg" alt="Healthy Food" class="hero-img">
+            <div class="text-content">
+                <h1>Welcome to HealthyBite!</h1>
+                <p>Delicious and nutritious recipes to fuel your body and mind. Discover the perfect meal today!</p>
+                <a href="#recipes" class="cta-button">Explore Recipes</a>
+            </div>
+        </div>
+    </section>
+    <!--recipes sections strat here-->
+    <section id="recipes" class="recipes-section">
+      <h2 class="section-title">Healthy Recipes</h2>
+      <div class="recipes-container">
+          <!-- Recipe 1 -->
+          <div class="recipe-card">
+              <img src="images/Grilled Chicken.jpg" alt="Recipe 1" class="recipe-img">
+              <div class="recipe-info">
+                  <h3>Grilled Chicken Salad</h3>
+                  <p>A nutritious, protein-packed salad with grilled chicken, veggies, and a light dressing.</p>
+                  <a href="recipe1.html" class="recipe-btn">View Recipe</a>
+              </div>
+          </div>
+          <!-- Recipe 2 -->
+          <div class="recipe-card">
+              <img src="images/Vegan Buddha Bowl.jpg" alt="Recipe 2" class="recipe-img">
+              <div class="recipe-info">
+                  <h3>Vegan Buddha Bowl</h3>
+                  <p>A delicious and colorful bowl filled with quinoa, veggies, and a tahini dressing.</p>
+                  <a href="recipe2.html" class="recipe-btn">View Recipe</a>
+              </div>
+          </div>
+          <!-- Recipe 3 -->
+          <div class="recipe-card">
+              <img src="images/Avocado Toast.jpg" alt="Recipe 3" class="recipe-img">
+              <div class="recipe-info">
+                  <h3>Avocado Toast</h3>
+                  <p>A simple yet delicious avocado toast topped with poached egg and seasonings.</p>
+                  <a href="recipe3.html" class="recipe-btn">View Recipe</a>
+              </div>
+          </div>
+          <!-- Recipe 4 -->
+          <div class="recipe-card">
+              <img src="images/Quinoa Salad.jpg" alt="Recipe 4" class="recipe-img">
+              <div class="recipe-info">
+                  <h3>Quinoa Salad with Roasted Vegetables</h3>
+                  <p>A refreshing salad with quinoa, roasted veggies, and a lemon-tahini dressing.</p>
+                  <a href="recipe4.html" class="recipe-btn">View Recipe</a>
+              </div>
+          </div>
+          <!-- Recipe 5 -->
+          <div class="recipe-card">
+              <img src="images/Baked Salmon.jpg" alt="Recipe 5" class="recipe-img">
+              <div class="recipe-info">
+                  <h3>Baked Salmon with Asparagus</h3>
+                  <p>A heart-healthy salmon fillet paired with roasted asparagus and a garlic-lime sauce.</p>
+                  <a href="recipe5.html" class="recipe-btn">View Recipe</a>
+              </div>
+          </div>
+          <!-- Recipe 6 -->
+          <div class="recipe-card">
+              <img src="images/Chia Pudding.jpg" alt="Recipe 6" class="recipe-img">
+              <div class="recipe-info">
+                  <h3>Chia Pudding with Mixed Berries</h3>
+                  <p>A simple chia pudding topped with fresh mixed berries and honey.</p>
+                  <a href="recipe6.html" class="recipe-btn">View Recipe</a>
+              </div>
+          </div>
+          <!-- Recipe 7 -->
+          <div class="recipe-card">
+              <img src="images/Veggie Stir-Fry with Tofu.jpg" alt="Recipe 7" class="recipe-img">
+              <div class="recipe-info">
+                  <h3>Veggie Stir-Fry with Tofu</h3>
+                  <p>A colorful stir-fry with tofu, mixed veggies, and savory soy sauce.</p>
+                  <a href="recipe7.html" class="recipe-btn">View Recipe</a>
+              </div>
+          </div>
+          <!-- Recipe 8 -->
+          <div class="recipe-card">
+              <img src="images/Avocado & Chickpea Salad.jpg" alt="Recipe 8" class="recipe-img">
+              <div class="recipe-info">
+                  <h3>Avocado & Chickpea Salad</h3>
+                  <p>A healthy mash of avocado, chickpeas, and fresh herbs.</p>
+                  <a href="recipe8.html" class="recipe-btn">View Recipe</a>
+              </div>
+          </div>
+          <!-- Recipe 9 -->
+          <div class="recipe-card">
+              <img src="images/Taco.jpg" alt="Recipe 9" class="recipe-img">
+              <div class="recipe-info">
+                  <h3>Sweet Potato & Black Bean Tacos</h3>
+                  <p>Roasted sweet potatoes and black beans wrapped in soft tortillas.</p>
+                  <a href="recipe9.html" class="recipe-btn">View Recipe</a>
+              </div>
+          </div>
+          <!-- Recipe 10 -->
+          <div class="recipe-card">
+              <img src="images/Smoothie Bowl.jpg" alt="Recipe 10" class="recipe-img">
+              <div class="recipe-info">
+                  <h3>Smoothie Bowl with Banana and Almond Butter</h3>
+                  <p>A creamy smoothie bowl topped with banana, almond butter, and granola.</p>
+                  <a href="recipe10.html" class="recipe-btn">View Recipe</a>
+              </div>
+          </div>
+          <!-- New Recipe 11 -->
+        <div class="recipe-card">
+          <img src="images/Cauliflower Rice Stir-Fry.jpg" alt="Recipe 11" class="recipe-img">
+          <div class="recipe-info">
+              <h3>Cauliflower Rice Stir-Fry</h3>
+              <p>A low-carb stir-fry with cauliflower rice, veggies, and a savory soy sauce.</p>
+              <a href="recipe11.html" class="recipe-btn">View Recipe</a>
+          </div>
+      </div>
+      <!-- New Recipe 12 -->
+      <div class="recipe-card">
+          <img src="images/Overnight Oats.jpg" alt="Recipe 12" class="recipe-img">
+          <div class="recipe-info">
+              <h3>Protein-Packed Overnight Oats</h3>
+              <p>A filling overnight oats recipe with almond butter, chia seeds, and protein powder.</p>
+              <a href="recipe12.html" class="recipe-btn">View Recipe</a>
+          </div>
+      </div>
+      </div>
+  </section>
+<!--recipes sections end here-->
+<!--mealplan sections strat here-->
+<section id="meal-plans" class="meal-plans">
+  <div class="container">
+      <h2>Our Meal Plans</h2>
+      <p>Choose the best meal plan tailored to your health goals. Explore different options and enjoy wholesome, nutritious meals.</p>
+      
+      <div class="meal-plans-list">
+          <!-- Meal Plan 1: Weekly Meal Plan -->
+          <div class="meal-plan-card">
+              <div class="meal-plan-info">
+                  <h3>Weekly Meal Plan</h3>
+                  <p>Balanced meals to fuel your week.</p>
+              </div>
+              <div class="meal-plan-img">
+                  <img src="meals/weekly.jpg" alt="Weekly Meal Plan">
+              </div>
+              <div class="meal-plan-full-info">
+                  <h3>Full Description</h3>
+                  <p>This is a weekly meal plan with balanced and nutritious meals designed to fuel your week with energy. Perfect for those looking for a healthy and easy-to-follow meal plan.</p>
+                  <img src="meals/weekly.jpg" alt="Weekly Meal Plan">
+              </div>
+          </div>
+
+          <!-- Meal Plan 2: Keto Meal Plan -->
+          <div class="meal-plan-card">
+              <div class="meal-plan-info">
+                  <h3>Keto Meal Plan</h3>
+                  <p>Low-carb, high-fat meals for weight loss.</p>
+              </div>
+              <div class="meal-plan-img">
+                  <img src="meals/keto.jpg" alt="Keto Meal Plan">
+              </div>
+              <div class="meal-plan-full-info">
+                  <h3>Full Description</h3>
+                  <p>This keto meal plan includes delicious, low-carb meals that help you achieve your weight loss goals. It’s the perfect choice for those on a keto diet.</p>
+                  <img src="meals/keto.jpg" alt="Keto Meal Plan">
+              </div>
+          </div>
+
+          <!-- Meal Plan 3: Vegan Meal Plan -->
+          <div class="meal-plan-card">
+              <div class="meal-plan-info">
+                  <h3>Vegan Meal Plan</h3>
+                  <p>Plant-based meals for every lifestyle.</p>
+              </div>
+              <div class="meal-plan-img">
+                  <img src="meals/vegan.jpg" alt="Vegan Meal Plan">
+              </div>
+              <div class="meal-plan-full-info">
+                  <h3>Full Description</h3>
+                  <p>This vegan meal plan includes plant-based meals that are rich in nutrients and free from animal products, perfect for a healthy lifestyle.</p>
+                  <img src="meals/vegan.jpg" alt="Vegan Meal Plan">
+              </div>
+          </div>
+
+          <!-- Meal Plan 4: Gluten-Free Meal Plan -->
+          <div class="meal-plan-card">
+              <div class="meal-plan-info">
+                  <h3>Gluten-Free Meal Plan</h3>
+                  <p>Meals without gluten, perfect for sensitive diets.</p>
+              </div>
+              <div class="meal-plan-img">
+                  <img src="meals/gulten.jpg" alt="Gluten-Free Meal Plan">
+              </div>
+              <div class="meal-plan-full-info">
+                  <h3>Full Description</h3>
+                  <p>This gluten-free meal plan includes wholesome, nutritious meals without any gluten, making it perfect for those with sensitivities or celiac disease.</p>
+                  <img src="meals/gulten.jpg" alt="Gluten-Free Meal Plan">
+              </div>
+          </div>
+
+          <!-- Meal Plan 5: Low-Carb Meal Plan -->
+          <div class="meal-plan-card">
+              <div class="meal-plan-info">
+                  <h3>Low-Carb Meal Plan</h3>
+                  <p>Delicious meals for low-carb enthusiasts.</p>
+              </div>
+              <div class="meal-plan-img">
+                  <img src="meals/carbo.jpg" alt="Low-Carb Meal Plan">
+              </div>
+              <div class="meal-plan-full-info">
+                  <h3>Full Description</h3>
+                  <p>This low-carb meal plan is perfect for anyone who wants to reduce their carbohydrate intake while enjoying delicious meals. It's perfect for maintaining a healthy weight.</p>
+                  <img src="meals/carbo.jpg" alt="Low-Carb Meal Plan">
+              </div>
+          </div>
+
+          <!-- Meal Plan 6: Paleo Meal Plan -->
+          <div class="meal-plan-card">
+              <div class="meal-plan-info">
+                  <h3>Paleo Meal Plan</h3>
+                  <p>Eat like our ancestors with unprocessed, whole foods.</p>
+              </div>
+              <div class="meal-plan-img">
+                  <img src="meals/paleo.jpg" alt="Paleo Meal Plan">
+              </div>
+              <div class="meal-plan-full-info">
+                  <h3>Full Description</h3>
+                  <p>This paleo meal plan includes unprocessed, whole foods that nourish the body and support overall health. Great for anyone looking to follow a more natural, clean diet.</p>
+                  <img src="meals/paleo.jpg" alt="Paleo Meal Plan">
+              </div>
+          </div>
+
+          <!-- Meal Plan 7: Detox Meal Plan -->
+          <div class="meal-plan-card">
+              <div class="meal-plan-info">
+                  <h3>Detox Meal Plan</h3>
+                  <p>Cleanse and rejuvenate your body with healthy meals.</p>
+              </div>
+              <div class="meal-plan-img">
+                  <img src="meals/detox.jpg" alt="Detox Meal Plan">
+              </div>
+              <div class="meal-plan-full-info">
+                  <h3>Full Description</h3>
+                  <p>This detox meal plan focuses on cleansing the body with nutrient-rich foods that help rejuvenate and support your health goals.</p>
+                  <img src="meals/detox.jpg" alt="Detox Meal Plan">
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+<!--mealplan sections ends here-->
+<!--drinks sections start here-->
+<!-- Healthy Drinks Section -->
+<section id="drinks" class="healthy-drinks">
+  <h2>Healthy Drinks</h2>
+  <div class="drinks-container">
+      <!-- Drink 1 -->
+      <div class="drink-card" onclick="openModal('green-smoothie')">
+          <img src="image/green-smoothie.jpg" alt="Green Smoothie">
+      </div>
+
+      <!-- Drink 2 -->
+      <div class="drink-card" onclick="openModal('berry-blast')">
+          <img src="image/berry-blast.jpg" alt="Berry Blast">
+      </div>
+
+      <!-- Drink 3 -->
+      <div class="drink-card" onclick="openModal('tropical-punch')">
+          <img src="image/tropical-punch.jpg" alt="Tropical Punch">
+      </div>
+
+      <!-- Drink 4 -->
+      <div class="drink-card" onclick="openModal('avocado-smoothie')">
+          <img src="image/avocado-smoothie.jpg" alt="Avocado Smoothie">
+      </div>
+
+      <!-- Drink 5 -->
+      <div class="drink-card" onclick="openModal('beetroot-juice')">
+          <img src="image/beetroot-juice.jpg" alt="Beetroot Juice">
+      </div>
+
+      <!-- Drink 6 -->
+      <div class="drink-card" onclick="openModal('mint-lime')">
+          <img src="image/mint-lime.jpg" alt="Mint Lime Drink">
+      </div>
+
+      <!-- Drink 7 -->
+      <div class="drink-card" onclick="openModal('coconut-water')">
+          <img src="image/coconut-water.jpg" alt="Coconut Water">
+      </div>
+  </div>
+</section>
+
+<!-- Modal for Drink Details -->
+<div id="drink-modal" class="modal">
+  <div class="modal-content">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <div id="modal-details">
+          <!-- Drink details will be inserted here by JS -->
+      </div>
+  </div>
+</div>
+
+
+
+
+<!--drinks sections ends here-->
+
+<!--nutrition sections strat here-->
+<section id="nutrition"class="nutrition">
+  <!-- Nutrition Introduction -->
+  <div class="nutrition-intro">
+      <h2>Nutrition Facts</h2>
+      <p>Nutrition is essential for overall health and wellness. A balanced diet provides the nutrients your body needs to function correctly. Discover the benefits of different nutrients and explore healthy meal options.</p>
+  </div>
+
+  <!-- Nutrition Categories -->
+  <div class="nutrition-categories">
+      <div class="category">
+          <h3>Proteins</h3>
+          <p>Proteins are essential for muscle growth, immune function, and overall health. Include sources like lean meats, fish, eggs, and legumes in your diet.</p>
+          <ul>
+              <li>Lean meats: Chicken, turkey</li>
+              <li>Legumes: Lentils, chickpeas</li>
+              <li>Fish: Salmon, tuna</li>
+          </ul>
+      </div>
+      <div class="category">
+          <h3>Carbohydrates</h3>
+          <p>Carbs are the body’s primary energy source. Choose whole grains, fruits, and vegetables for a balanced intake.</p>
+          <ul>
+              <li>Whole grains: Brown rice, quinoa</li>
+              <li>Fruits: Apples, berries</li>
+              <li>Vegetables: Sweet potatoes, carrots</li>
+          </ul>
+      </div>
+      <div class="category">
+          <h3>Vitamins</h3>
+          <p>Vitamins are vital for maintaining overall health, supporting your immune system, and providing energy. Include a variety of colorful fruits and vegetables to get a range of vitamins.</p>
+          <ul>
+              <li>Vitamin A: Carrots, spinach</li>
+              <li>Vitamin C: Oranges, strawberries</li>
+              <li>Vitamin D: Eggs, fortified milk</li>
+          </ul>
+      </div>
+      <div class="category">
+          <h3>Minerals</h3>
+          <p>Minerals are important for bone health, nerve function, and oxygen transport. Include calcium-rich and iron-rich foods in your meals.</p>
+          <ul>
+              <li>Calcium: Dairy products, leafy greens</li>
+              <li>Iron: Spinach, red meat</li>
+              <li>Potassium: Bananas, avocados</li>
+          </ul>
+      </div>
+      <div class="category">
+          <h3>Healthy Fats</h3>
+          <p>Healthy fats are crucial for heart health and hormone production. Incorporate sources like nuts, seeds, and avocados.</p>
+          <ul>
+              <li>Monounsaturated fats: Olive oil, avocado</li>
+              <li>Omega-3 fatty acids: Salmon, flaxseeds</li>
+              <li>Polyunsaturated fats: Walnuts, chia seeds</li>
+          </ul>
+      </div>
+  </div>
+
+  <!-- Healthy Eating Tips -->
+  <div class="nutrition-tips">
+      <h3>Healthy Eating Tips</h3>
+      <ul>
+          <li>Eat a variety of whole foods from all food groups for a balanced diet.</li>
+          <li>Stay hydrated by drinking plenty of water throughout the day.</li>
+          <li>Avoid processed foods, excessive sugar, and unhealthy fats.</li>
+          <li>Incorporate more fiber-rich foods to support digestion.</li>
+      </ul>
+  </div>
+
+  <!-- Meal Examples -->
+  <div class="meal-examples">
+      <h3>Healthy Meal Examples</h3>
+
+      <div class="meal-card">
+          <img src="images/Grilled Chicken.jpg" alt="Chicken Salad">
+          <div class="meal-info">
+              <h4>Grilled Chicken Salad</h4>
+              <p>This meal is high in protein, healthy fats, and vitamins.</p>
+              <ul>
+                  <li><strong>Calories:</strong> 350 kcal</li>
+                  <li><strong>Protein:</strong> 35g</li>
+                  <li><strong>Carbs:</strong> 20g</li>
+                  <li><strong>Fats:</strong> 18g</li>
+              </ul>
+          </div>
+      </div>
+
+      <div class="meal-card">
+          <img src="images/Veggie Stir-Fry with Tofu.jpg" alt="Vegetable Stir-fry">
+          <div class="meal-info">
+              <h4>Vegetable Stir-fry</h4>
+              <p>Packed with vitamins, minerals, and fiber, perfect for a nutritious lunch.</p>
+              <ul>
+                  <li><strong>Calories:</strong> 250 kcal</li>
+                  <li><strong>Protein:</strong> 8g</li>
+                  <li><strong>Carbs:</strong> 40g</li>
+                  <li><strong>Fats:</strong> 10g</li>
+              </ul>
+          </div>
+      </div>
+
+      <div class="meal-card">
+          <img src="images/Quinoa Salad.jpg" alt="Quinoa & Avocado Bowl">
+          <div class="meal-info">
+              <h4>Quinoa & Avocado Bowl</h4>
+              <p>This nutrient-dense meal provides healthy fats, carbs, and fiber.</p>
+              <ul>
+                  <li><strong>Calories:</strong> 400 kcal</li>
+                  <li><strong>Protein:</strong> 12g</li>
+                  <li><strong>Carbs:</strong> 45g</li>
+                  <li><strong>Fats:</strong> 20g</li>
+              </ul>
+          </div>
+      </div>
+  </div>
+</section>
+
+<!--nutrition sections end here-->
+<!-- Shop Section -->
+<section id="shop" class="shop">
+  <h2>Shop Our Products</h2>
+
+  <!-- Product Grid -->
+  <div class="product-grid">
+      <!-- Product 1 -->
+      <div class="product-card">
+          <img src="image/vegan-healthy.jpg" alt="Vegan Protein Powder">
+          <div class="product-info">
+              <h4>Vegan Protein Powder</h4>
+              <p>Plant-based protein powder, ideal for muscle recovery and growth.</p>
+              <p class="price">$29.99</p>
+              <button class="add-to-cart">Add to Cart</button>
+          </div>
+      </div>
+
+      <!-- Product 2 -->
+      <div class="product-card">
+          <img src="image/organic-tea.jpg" alt="Organic Tea">
+          <div class="product-info">
+              <h4>Organic Tea</h4>
+              <p>Refreshing and detoxifying tea made with all-natural ingredients.</p>
+              <p class="price">$14.99</p>
+              <button class="add-to-cart">Add to Cart</button>
+          </div>
+      </div>
+
+      <!-- Product 3 -->
+      <div class="product-card">
+          <img src="image/smoothie-cups.jpg" alt="Smoothie Cups">
+          <div class="product-info">
+              <h4>Smoothie Cups</h4>
+              <p>Reusable, eco-friendly cups for smoothies on the go.</p>
+              <p class="price">$12.99</p>
+              <button class="add-to-cart">Add to Cart</button>
+          </div>
+      </div>
+
+      <!-- Product 4 -->
+      <div class="product-card">
+          <img src="image/reusable-bottle.jpg" alt="Reusable Water Bottle">
+          <div class="product-info">
+              <h4>Reusable Water Bottle</h4>
+              <p>Stay hydrated with this eco-friendly, insulated water bottle.</p>
+              <p class="price">$18.99</p>
+              <button class="add-to-cart">Add to Cart</button>
+          </div>
+      </div>
+
+      <!-- Product 5 -->
+      <div class="product-card">
+          <img src="image/health-supplements.jpg" alt="Health Supplements">
+          <div class="product-info">
+              <h4>Health Supplements</h4>
+              <p>Essential vitamins and minerals to support your health journey.</p>
+              <p class="price">$24.99</p>
+              <button class="add-to-cart">Add to Cart</button>
+          </div>
+      </div>
+
+      <!-- Product 6 -->
+      <div class="product-card">
+          <img src="image/organic-milk.jpg" alt="Organic Milk">
+          <div class="product-info">
+              <h4>Organic Milk</h4>
+              <p>Fresh, organic milk for a wholesome diet.</p>
+              <p class="price">$6.99</p>
+              <button class="add-to-cart">Add to Cart</button>
+          </div>
+      </div>
+
+      <!-- Product 7 -->
+      <div class="product-card">
+          <img src="image/gluten-free-snacks.jpg" alt="Gluten-Free Snacks">
+          <div class="product-info">
+              <h4>Gluten-Free Snacks</h4>
+              <p>Healthy snacks that are gluten-free and delicious!</p>
+              <p class="price">$9.99</p>
+              <button class="add-to-cart">Add to Cart</button>
+          </div>
+      </div>
+
+      <!-- Product 8 -->
+      <div class="product-card">
+          <img src="image/superfood-powder.jpg" alt="Superfood Powder">
+          <div class="product-info">
+              <h4>Superfood Powder</h4>
+              <p>Boost your health with a mix of nutrient-dense superfoods.</p>
+              <p class="price">$19.99</p>
+              <button class="add-to-cart">Add to Cart</button>
+          </div>
+      </div>
+  </div>
+</section>
+<!-- About Us Section -->
+<section id="about-us" class="about-us">
+  <div class="about-container">
+      <h2>About Us</h2>
+      <p class="about-description">
+          Welcome to Healthy Bites! Our mission is to provide delicious, nutritious meals and drinks that cater to a healthy lifestyle. We believe that healthy eating doesn't have to be boring or tasteless. From fresh salads to nutrient-packed smoothies, we’re here to support your journey to a healthier you.
+      </p>
+
+      <div class="about-cards">
+          <!-- Our Story -->
+          <div class="about-card">
+              <img src="meals/history.jpg" alt="Our Story">
+              <h3>Our Story</h3>
+              <p>Founded in 2023, Healthy Bites started with a passion for healthy, flavorful foods. Our goal is to make nutritious eating accessible and enjoyable for everyone.</p>
+          </div>
+
+          <!-- Our Mission -->
+          <div class="about-card">
+              <img src="meals/mission.jpg" alt="Our Mission">
+              <h3>Our Mission</h3>
+              <p>We are dedicated to serving high-quality, wholesome meals that fuel your body and satisfy your taste buds. Healthy eating made simple and delicious.</p>
+          </div>
+
+          <!-- Our Values -->
+          <div class="about-card">
+              <img src="meals/values.jpg" alt="Our Values">
+              <h3>Our Values</h3>
+              <p>We value sustainability, freshness, and integrity. Every ingredient we use is carefully selected to ensure the best quality for our customers.</p>
+          </div>
+      </div>
+  </div>
+</section>
+<!-- Testimonials Section -->
+<section id="testimonials" class="testimonials">
+  <div class="testimonials-container">
+      <h2>What Our Customers Say</h2>
+
+      <div class="testimonial-cards">
+          <!-- Testimonial 1 -->
+          <div class="testimonial-card">
+              <p class="testimonial-text">"Healthy Bites has completely transformed my eating habits. Their meals are delicious and nutritious!"</p>
+              <h3 class="customer-name">- Sarah Williams</h3>
+          </div>
+
+          <!-- Testimonial 2 -->
+          <div class="testimonial-card">
+              <p class="testimonial-text">"The best part about Healthy Bites is the variety. I never get bored of the healthy options they offer."</p>
+              <h3 class="customer-name">- Mark Johnson</h3>
+          </div>
+
+          <!-- Testimonial 3 -->
+          <div class="testimonial-card">
+              <p class="testimonial-text">"I love the smoothies! They are the perfect blend of taste and nutrition. Highly recommend!"</p>
+              <h3 class="customer-name">- Emily Brown</h3>
+          </div>
+
+          <!-- Testimonial 4 -->
+          <div class="testimonial-card">
+              <p class="testimonial-text">"Healthy Bites makes eating healthy so easy. The meal plans are perfect for my busy lifestyle."</p>
+              <h3 class="customer-name">- Michael Lee</h3>
+          </div>
+      </div>
+  </div>
+</section>
+<!-- Footer Section -->
+<footer id="footer">
+  <div class="footer-container">
+      <!-- Footer Left (Company Information) -->
+      <div class="footer-left">
+          <p><strong>Healthy Bites</strong><br> Delicious & Nutritious Meals & Drinks</p>
+      </div>
+
+      <!-- Footer Center (Links) -->
+      <div class="footer-center">
+          <ul class="footer-links">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about-us">About Us</a></li>
+              <li><a href="#recipes">Recipes</a></li>
+              <li><a href="#meal-plans">Meal Plans</a></li>
+              <li><a href="#drinks">Drinks</a></li>
+              <li><a href="#nutrition">Nutrition</a></li>
+              <li><a href="#contact.html">Contact</a></li>
+              <li><a href="#shop">Shop</a></li>
+          </ul>
+      </div>
+
+      <!-- Footer Right (Social Media Icons) -->
+      <div class="footer-right">
+          <p>Follow us on social media:</p>
+          <div class="social-icons">
+              <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+          </div>
+      </div>
+  </div>
+  <!-- Footer Bottom (Reserved Rights) -->
+  <div class="footer-bottom">
+      <p>&copy; 2024 Healthy Bites. All rights reserved.</p>
+  </div>
+</footer>
+
+
+
+</body>
+</html>
